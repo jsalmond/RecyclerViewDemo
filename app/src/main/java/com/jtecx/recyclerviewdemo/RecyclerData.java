@@ -13,6 +13,17 @@ public class RecyclerData {
     private static final int[] icons = {android.R.drawable.ic_popup_reminder, android.R.drawable.ic_menu_add,
     android.R.drawable.ic_menu_delete};
 
+    private static final String[] subTitles = {
+            "Bruce Lee",
+            "Marcus Aurelius",
+            "Meng Tzu",
+            "Carl Sagan",
+            "Alhazen",
+            "Jim Robin"
+    };
+
+    private static final int icon = R.drawable.ic_sentiment_neutral_black_36dp;
+
 
 
 
