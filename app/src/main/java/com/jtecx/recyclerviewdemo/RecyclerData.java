@@ -30,7 +30,7 @@ public class RecyclerData {
     public static List<ListItem> getListData(){
         List<ListItem> data = new ArrayList<>();
 
-        for (int x = 0; x < 4; x++){
+        for (int x = 0; x < 10; x++){
             for (int i = 0; i < titles.length && i < icons.length; i++ ){
                 ListItem item = new ListItem();
                 item.setImageResid(icons[i]);

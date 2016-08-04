@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.List;
@@ -25,8 +27,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Recycl
     public RecyclerHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
         View view = inflater.inflate(R.layout.list_item, parent, false);
-
-
         return new RecyclerHolder(view);
     }
 
@@ -35,6 +35,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Recycl
         ListItem item = listData.get(position);
         holder.title.setText(item.getTitle());
         holder.icon.setImageResource(item.getImageResid());
+
     }
 
     @Override
